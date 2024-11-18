@@ -3,4 +3,9 @@
 
 #[cfg(test)]
 #[embedded_test::tests]
-mod tests {}
+mod tests {
+    #[test]
+    async fn test_example() {
+        
+    }
+}
